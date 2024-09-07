@@ -1,0 +1,51 @@
+/* src/VehicleTracker.css */
+.tracker-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px;
+}
+
+.settings-form {
+  width: 30%;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.settings-form form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.settings-form input,
+.settings-form button {
+  margin-bottom: 10px;
+}
+
+.settings-form label {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.location-list {
+  margin-top: 10px;
+}
+
+.location-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.location-list li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.location-list button {
+  margin-left: 10px;
+}
